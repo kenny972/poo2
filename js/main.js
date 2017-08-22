@@ -32,14 +32,24 @@ alert(perso2.name + " : He has " + perso2.attack + " " + "attack points, " + " "
 perso2.health +
 " in health")
 
-
+// FurieHeadbutt attaque Monster
 alert(perso2.name+" "+" is attacking Monster")
 
+// Monster subit l'attaque et perd des points
 alert(perso1.health = perso1.health - 40 + ": It's a blow to monster");
 
+// Monster est furieux et il contre-attaque
 alert(perso1.name +" He's furious ! It launches its power attack: "+ perso1.attack);
 
-alert(perso1.name+perso2.name+"they look at each other")
+// FurieHeadbutt esquive l'attaque et concerve ses points
+alert(perso2.name + " He dodges the attack and keeps its health: "+ perso2.health);
+
+// Monster abandonne le combat
+alert(perso1.name +" is afraid of " + perso2.name + " . He abandons the fight");
+
+// FurieHeadbutt remporte le combat
+alert(perso2.name+ " he's the winner");
+
 
 
 
